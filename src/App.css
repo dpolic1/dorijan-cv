@@ -1,18 +1,26 @@
-body {
+html, body {
   margin: 0;
-  font-family: system-ui, Arial;
-  background: #0f0f0f;
-  color: white;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  overflow: hidden;
 }
 
 .slide {
+  position: relative;
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 24px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 button {
